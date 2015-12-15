@@ -31,8 +31,8 @@ void Cat::Update(float deltaTime) {
 	accuTime += deltaTime;
 	catSprite->angle = 20 * 3.14 * cosf(accuTime);
 	position.y += 25 * cosf(accuTime);
-	catSprite->retangle->x = position.x;
-	catSprite->retangle->y = position.y;
+	catSprite->position.x = position.x;
+	catSprite->position.y = position.y;
 }
 
 void Cat::LeftFlip() const {

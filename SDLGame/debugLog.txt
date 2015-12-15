@@ -1,1147 +1,1147 @@
 INFO: Main::Main() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\main.cpp
  Line :: 19
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Main started
 
 INFO: GSM::getInstance() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\gamescenemanager.cpp
  Line :: 8
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Checking if the _instance obj is NULL or a null address
 
 INFO: GSM::getInstance() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\gamescenemanager.cpp
  Line :: 13
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Reseting unique ptr adress
 
 INFO: Window::Window() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\window.cpp
  Line :: 13
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Window Constructor
 
 INFO: GSM::GameSceneManager() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\gamescenemanager.cpp
  Line :: 38
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Hello from the constructor
 
 INFO: GSM::getInstance() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\gamescenemanager.cpp
  Line :: 17
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: returning the instance
 
 INFO: GSM::Thread() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\gamescenemanager.cpp
  Line :: 46
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: starting Thread logic
 
 INFO: Main::GSM::Run() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\main.cpp
  Line :: 22
- Date :: Mon Dec 14 23:13:55 2015
- Thread ID :: 8700
+ Date :: Tue Dec 15 03:27:08 2015
+ Thread ID :: 9380
  Message :: Thread1 id
 
 INFO: GSM::Initialize() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\gamescenemanager.cpp
  Line :: 54
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: setting windowSize of 1100 , 768
 
 INFO: Window::SetWindowSize() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\window.cpp
  Line :: 110
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Setting Window Size
 
 INFO: GSM::Initialize() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\gamescenemanager.cpp
  Line :: 57
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: checking to see if windowInstance.initialize returns false
 
 INFO: Window::Initialization() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\window.cpp
  Line :: 27
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: trying to initialize window
 
 INFO: Window::initialize() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\window.cpp
  Line :: 80
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Window initialized
 
 INFO: Music::Music() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\music.cpp
  Line :: 5
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Music Constructor
 
 INFO: MusicPlayer::MusicPlayer() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\musicplayer.cpp
  Line :: 4
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: 
 
 INFO: Event::Event() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\event.cpp
  Line :: 4
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Event Created
 
 INFO: Event::Event() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\event.cpp
  Line :: 4
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Event Created
 
 INFO: EventHandler::EventHandler() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\eventhandler.cpp
  Line :: 3
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Event Handler Created
 
 INFO: Event::~Event() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\event.cpp
  Line :: 8
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Event Initialized
 
 INFO: EventHandler::Initialize() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\eventhandler.cpp
  Line :: 13
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Event Handlerer initializing Event
 
 INFO: GameObject::GameObject() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\gameobject.cpp
  Line :: 4
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Hello from GameObject
 
 INFO: Sprite::Sprite() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 8
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 9
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Created
 
 INFO: GameObject::GameObject() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\gameobject.cpp
  Line :: 4
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Hello from GameObject
 
 INFO: Sprite::Sprite() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 8
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 9
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Created
 
 INFO: GameObject::GameObject() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\gameobject.cpp
  Line :: 4
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Hello from GameObject
 
 INFO: Sprite::Sprite() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 8
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 9
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Created
 
 INFO: GameObject::GameObject() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\gameobject.cpp
  Line :: 4
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Hello from GameObject
 
 INFO: Sprite::Sprite() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 8
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 9
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Created
 
 INFO: GameObject::GameObject() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\gameobject.cpp
  Line :: 4
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Hello from GameObject
 
 INFO: Sprite::Sprite() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 8
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 9
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Created
 
 INFO: GameObject::GameObject() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\gameobject.cpp
  Line :: 4
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Hello from GameObject
 
 INFO: Sprite::Sprite() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 8
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 9
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Created
 
 INFO: GameObject::GameObject() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\gameobject.cpp
  Line :: 4
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Hello from GameObject
 
 INFO: Sprite::Sprite() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 8
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 9
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Created
 
 INFO: GameObject::GameObject() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\gameobject.cpp
  Line :: 4
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Hello from GameObject
 
 INFO: Sprite::Sprite() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 8
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 9
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Created
 
 INFO: GameObject::GameObject() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\gameobject.cpp
  Line :: 4
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Hello from GameObject
 
 INFO: Sprite::Sprite() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 8
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 9
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Created
 
 INFO: Boy::Boy() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\boy.cpp
  Line :: 7
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Boy pointer Created at screen coord ::
 
 INFO: Sprite::Sprite() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 8
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 9
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Created
 
 INFO: ImageLoader::ImgLoader() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\imageloader.cpp
  Line :: 42
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Loading C:/GameDev/fly.png
 
 INFO: ImageLoader::BitMapLoader() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\imageloader.cpp
  Line :: 85
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Texture Loaded
 
 INFO: Sprite::Load() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 18
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 19
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Loaded
 
 INFO: ImageLoader::ImgLoader() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\imageloader.cpp
  Line :: 42
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Loading C:/GameDev/fly.png
 
 INFO: ImageLoader::BitMapLoader() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\imageloader.cpp
  Line :: 85
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Texture Loaded
 
 INFO: Sprite::Load() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 18
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 19
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Loaded
 
 INFO: ImageLoader::ImgLoader() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\imageloader.cpp
  Line :: 42
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Loading C:/GameDev/fly.png
 
 INFO: ImageLoader::BitMapLoader() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\imageloader.cpp
  Line :: 85
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Texture Loaded
 
 INFO: Sprite::Load() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 18
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 19
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Loaded
 
 INFO: ImageLoader::ImgLoader() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\imageloader.cpp
  Line :: 42
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Loading C:/GameDev/fly.png
 
 INFO: ImageLoader::BitMapLoader() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\imageloader.cpp
  Line :: 85
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Texture Loaded
 
 INFO: Sprite::Load() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 18
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 19
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Loaded
 
 INFO: ImageLoader::ImgLoader() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\imageloader.cpp
  Line :: 42
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Loading C:/GameDev/fly.png
 
 INFO: ImageLoader::BitMapLoader() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\imageloader.cpp
  Line :: 85
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Texture Loaded
 
 INFO: Sprite::Load() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 18
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 19
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Loaded
 
 INFO: ImageLoader::ImgLoader() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\imageloader.cpp
  Line :: 42
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Loading C:/GameDev/fly.png
 
 INFO: ImageLoader::BitMapLoader() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\imageloader.cpp
  Line :: 85
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Texture Loaded
 
 INFO: Sprite::Load() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 18
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 19
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Loaded
 
 INFO: ImageLoader::ImgLoader() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\imageloader.cpp
  Line :: 42
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Loading C:/GameDev/fly.png
 
 INFO: ImageLoader::BitMapLoader() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\imageloader.cpp
  Line :: 85
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Texture Loaded
 
 INFO: Sprite::Load() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 18
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 19
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Loaded
 
 INFO: ImageLoader::ImgLoader() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\imageloader.cpp
  Line :: 42
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Loading C:/GameDev/fly.png
 
 INFO: ImageLoader::BitMapLoader() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\imageloader.cpp
  Line :: 85
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Texture Loaded
 
 INFO: Sprite::Load() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 18
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 19
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Loaded
 
 INFO: ImageLoader::ImgLoader() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\imageloader.cpp
  Line :: 42
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Loading C:/GameDev/hero.png
 
 INFO: ImageLoader::BitMapLoader() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\imageloader.cpp
  Line :: 85
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Texture Loaded
 
 INFO: Sprite::Load() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 18
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 19
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Loaded
 
 INFO: ImageLoader::ImgLoader() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\imageloader.cpp
  Line :: 42
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Loading C:/GameDev/background.jpg
 
 INFO: ImageLoader::BitMapLoader() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\imageloader.cpp
  Line :: 85
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Texture Loaded
 
 INFO: Sprite::Load() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 18
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 19
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Loaded
 
 INFO: MusicPlayer::OpenAudio() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\musicplayer.cpp
  Line :: 71
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Openning Channel
 
 INFO: Music::Music() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\music.cpp
  Line :: 5
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Music Constructor
 
 INFO: MusicLoader::MusicLoader() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\musicloader.cpp
  Line :: 19
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Loading C:/GameDev/FFXIV_OST_Azys_Lla_Theme.mp3
 
 INFO: MusicPlayer::Load() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\musicplayer.cpp
  Line :: 13
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message ::  C:/GameDev/FFXIV_OST_Azys_Lla_Theme.mp3
 
 INFO: MusicPlayer::Stop() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\musicplayer.cpp
  Line :: 27
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Music Stopped
 
 INFO: MusicPlayer::Play() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\musicplayer.cpp
  Line :: 20
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Playing Music
 
 INFO: SSS::OnCreate() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\splashscreenscene.cpp
  Line :: 47
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Assets loaded
 
 INFO: Timer::Timer() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\timer.cpp
  Line :: 3
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Hello from Timer
 
 INFO: Timer::UpdateFrameTicks() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\timer.cpp
  Line :: 10
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Starting Timer
 
 INFO: SSS::Delete() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\splashscreenscene.cpp
  Line :: 9
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Deleting Instance
 
 INFO: Texture::Remove() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\texture.cpp
  Line :: 16
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Deleting
 
 INFO: Sprite::~Sprite() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 56
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 57
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Killed
 
 INFO: Texture::Remove() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\texture.cpp
  Line :: 16
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Deleting
 
 INFO: Texture::Remove() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\texture.cpp
  Line :: 16
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Deleting
 
 INFO: Sprite::~Sprite() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 56
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 57
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Killed
 
 INFO: Texture::Remove() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\texture.cpp
  Line :: 16
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Deleting
 
 INFO: Boy::OnDestroy() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\boy.cpp
  Line :: 31
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Deleting boy...
 
 INFO: Boy::~Boy() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\boy.cpp
  Line :: 11
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Goodbye Boy
 
 INFO: Texture::Remove() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\texture.cpp
  Line :: 16
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Deleting
 
 INFO: Sprite::~Sprite() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 56
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 57
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Killed
 
 INFO: Texture::Remove() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\texture.cpp
  Line :: 16
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Deleting
 
 INFO: Sprite::~Sprite() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 56
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 57
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Killed
 
 INFO: Texture::Remove() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\texture.cpp
  Line :: 16
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Deleting
 
 INFO: fly::Ondestroy() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\fly.cpp
- Line :: 24
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 25
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: fly Killed
 
 INFO: Texture::Remove() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\texture.cpp
  Line :: 16
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Deleting
 
 INFO: Sprite::~Sprite() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 56
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 57
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Killed
 
 INFO: Texture::Remove() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\texture.cpp
  Line :: 16
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Deleting
 
 INFO: Sprite::~Sprite() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 56
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 57
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Killed
 
 INFO: Texture::Remove() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\texture.cpp
  Line :: 16
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Deleting
 
 INFO: fly::Ondestroy() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\fly.cpp
- Line :: 24
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 25
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: fly Killed
 
 INFO: Texture::Remove() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\texture.cpp
  Line :: 16
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Deleting
 
 INFO: Sprite::~Sprite() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 56
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 57
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Killed
 
 INFO: Texture::Remove() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\texture.cpp
  Line :: 16
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Deleting
 
 INFO: Sprite::~Sprite() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 56
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 57
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Killed
 
 INFO: Texture::Remove() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\texture.cpp
  Line :: 16
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Deleting
 
 INFO: fly::Ondestroy() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\fly.cpp
- Line :: 24
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 25
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: fly Killed
 
 INFO: Texture::Remove() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\texture.cpp
  Line :: 16
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Deleting
 
 INFO: Sprite::~Sprite() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 56
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 57
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Killed
 
 INFO: Texture::Remove() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\texture.cpp
  Line :: 16
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Deleting
 
 INFO: Sprite::~Sprite() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 56
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 57
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Killed
 
 INFO: Texture::Remove() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\texture.cpp
  Line :: 16
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Deleting
 
 INFO: fly::Ondestroy() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\fly.cpp
- Line :: 24
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 25
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: fly Killed
 
 INFO: Texture::Remove() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\texture.cpp
  Line :: 16
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Deleting
 
 INFO: Sprite::~Sprite() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 56
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 57
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Killed
 
 INFO: Texture::Remove() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\texture.cpp
  Line :: 16
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Deleting
 
 INFO: Sprite::~Sprite() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 56
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 57
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Killed
 
 INFO: Texture::Remove() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\texture.cpp
  Line :: 16
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Deleting
 
 INFO: fly::Ondestroy() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\fly.cpp
- Line :: 24
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 25
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: fly Killed
 
 INFO: Texture::Remove() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\texture.cpp
  Line :: 16
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Deleting
 
 INFO: Sprite::~Sprite() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 56
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 57
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Killed
 
 INFO: Texture::Remove() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\texture.cpp
  Line :: 16
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Deleting
 
 INFO: Sprite::~Sprite() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 56
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 57
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Killed
 
 INFO: Texture::Remove() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\texture.cpp
  Line :: 16
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Deleting
 
 INFO: fly::Ondestroy() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\fly.cpp
- Line :: 24
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 25
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: fly Killed
 
 INFO: Texture::Remove() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\texture.cpp
  Line :: 16
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Deleting
 
 INFO: Sprite::~Sprite() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 56
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 57
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Killed
 
 INFO: Texture::Remove() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\texture.cpp
  Line :: 16
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Deleting
 
 INFO: Sprite::~Sprite() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 56
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 57
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Killed
 
 INFO: Texture::Remove() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\texture.cpp
  Line :: 16
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Deleting
 
 INFO: fly::Ondestroy() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\fly.cpp
- Line :: 24
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 25
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: fly Killed
 
 INFO: Texture::Remove() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\texture.cpp
  Line :: 16
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Deleting
 
 INFO: Sprite::~Sprite() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 56
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 57
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Killed
 
 INFO: Texture::Remove() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\texture.cpp
  Line :: 16
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Deleting
 
 INFO: Sprite::~Sprite() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 56
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 57
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Killed
 
 INFO: Texture::Remove() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\texture.cpp
  Line :: 16
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Deleting
 
 INFO: fly::Ondestroy() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\fly.cpp
- Line :: 24
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 25
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: fly Killed
 
 INFO: SplashScreenScene::OnDestroy() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\splashscreenscene.cpp
  Line :: 61
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Destroying assets
 
 INFO: EventHandler::~EventHandler() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\eventhandler.cpp
  Line :: 4
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Event Handler killed
 
 INFO: Event::~Event() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\event.cpp
  Line :: 5
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Event KILLED
 
 INFO: Event::~Event() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\event.cpp
  Line :: 5
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Event KILLED
 
 INFO: MouseManager::Delete() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\mousemanager.cpp
  Line :: 14
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Deleting
 
 INFO: Keyboardmanager::Delete() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\keyboardmanager.cpp
  Line :: 19
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Deleting keyboardManager
 
 INFO: Music::Remove() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\music.cpp
  Line :: 22
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Music Removed
 
 INFO: Music::~Music() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\music.cpp
  Line :: 12
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Music Detructor
 
 INFO: MusicPlayer::Stop() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\musicplayer.cpp
  Line :: 27
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Music Stopped
 
 INFO: MusicPlayer::~MusicPlayer() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\musicplayer.cpp
  Line :: 8
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: 
 
 INFO: Music::Remove() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\music.cpp
  Line :: 22
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Music Removed
 
 INFO: Music::~Music() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\music.cpp
  Line :: 12
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Music Detructor
 
 INFO: Sprite::Sprite() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 8
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 9
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Created
 
 INFO: ImageLoader::ImgLoader() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\imageloader.cpp
  Line :: 42
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Loading C:/GameDev/loading.png
 
 INFO: ImageLoader::BitMapLoader() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\imageloader.cpp
  Line :: 85
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Texture Loaded
 
 INFO: Sprite::Load() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 18
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 19
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Loaded
 
 INFO: GSM::SwitchScene() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\gamescenemanager.cpp
  Line :: 142
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Scene Swapped
 
 INFO: Texture::Remove() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\texture.cpp
  Line :: 16
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Deleting
 
 INFO: Sprite::~Sprite() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 56
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 57
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Killed
 
 INFO: Texture::Remove() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\texture.cpp
  Line :: 16
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Deleting
 
 INFO: Music::Music() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\music.cpp
  Line :: 5
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Music Constructor
 
 INFO: MusicPlayer::MusicPlayer() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\musicplayer.cpp
  Line :: 4
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Invalid texture
 
 INFO: Event::Event() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\event.cpp
  Line :: 4
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Event Created
 
 INFO: Event::Event() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\event.cpp
  Line :: 4
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Event Created
 
 INFO: EventHandler::EventHandler() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\eventhandler.cpp
  Line :: 3
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Event Handler Created
 
 INFO: Event::~Event() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\event.cpp
  Line :: 8
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Event Initialized
 
 INFO: EventHandler::Initialize() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\eventhandler.cpp
  Line :: 13
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Event Handlerer initializing Event
 
 INFO: GameObject::GameObject() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\gameobject.cpp
  Line :: 4
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Hello from GameObject
 
 INFO: Sprite::Sprite() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 8
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 9
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Created
 
 INFO: Sprite::Sprite() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 8
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 9
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Created
 
 INFO: GameObject::GameObject() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\gameobject.cpp
  Line :: 4
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Hello from GameObject
 
 INFO: Sprite::Sprite() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 8
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 9
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Created
 
 INFO: Boy::Boy() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\boy.cpp
  Line :: 7
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Boy pointer Created at screen coord ::
 
 INFO: GameObject::GameObject() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\gameobject.cpp
  Line :: 4
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Hello from GameObject
 
 INFO: Sprite::Sprite() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 8
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 9
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Created
 
 INFO: Boy::Boy() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\boy.cpp
  Line :: 7
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Boy pointer Created at screen coord ::
 
 INFO: ImageLoader::ImgLoader() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\imageloader.cpp
  Line :: 42
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Loading C:/GameDev/hero.png
 
 INFO: ImageLoader::BitMapLoader() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\imageloader.cpp
  Line :: 85
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Texture Loaded
 
 INFO: Sprite::Load() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 18
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 19
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Loaded
 
 INFO: ImageLoader::ImgLoader() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\imageloader.cpp
  Line :: 42
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Loading C:/GameDev/hero.png
 
 INFO: ImageLoader::BitMapLoader() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\imageloader.cpp
  Line :: 85
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Texture Loaded
 
 INFO: Sprite::Load() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 18
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 19
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Loaded
 
 INFO: ImageLoader::ImgLoader() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\imageloader.cpp
  Line :: 42
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Loading C:/GameDev/Spider.png
 
 INFO: ImageLoader::BitMapLoader() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\imageloader.cpp
  Line :: 85
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Texture Loaded
 
 INFO: Sprite::Load() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 18
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 19
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Loaded
 
 INFO: ImageLoader::ImgLoader() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\imageloader.cpp
  Line :: 42
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Loading C:/GameDev/background.jpg
 
 INFO: ImageLoader::BitMapLoader() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\imageloader.cpp
  Line :: 85
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Texture Loaded
 
 INFO: Sprite::Load() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp
- Line :: 18
- Date :: Mon Dec 14 23:13:55 2015
+ Line :: 19
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Sprite Loaded
 
 INFO: MusicPlayer::OpenAudio() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\musicplayer.cpp
  Line :: 71
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Openning Channel
 
 INFO: Music::Music() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\music.cpp
  Line :: 5
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Music Constructor
 
 INFO: MusicLoader::MusicLoader() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\musicloader.cpp
  Line :: 19
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Loading C:/GameDev/MakoReactor.ogg
 
 INFO: MusicPlayer::Load() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\musicplayer.cpp
  Line :: 13
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message ::  C:/GameDev/MakoReactor.ogg
 
 INFO: MusicPlayer::Stop() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\musicplayer.cpp
  Line :: 27
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Music Stopped
 
 INFO: MusicPlayer::Play() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\musicplayer.cpp
  Line :: 20
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Playing Music
 
 INFO: GSM::SwitchScene() - 
  File :: c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\gamescenemanager.cpp
  Line :: 133
- Date :: Mon Dec 14 23:13:55 2015
+ Date :: Tue Dec 15 03:27:08 2015
  Message :: Scene Swapped
 

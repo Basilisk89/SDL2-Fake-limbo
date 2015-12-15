@@ -18,10 +18,12 @@ namespace Game_Lib {
 		SDL_Rect* retangle;
 		float angle;
 		bool isFlipped;
+		Vec4 position;
 	private:
 		Window* windowInstance;
 		SDL_RendererFlip flip;
-
+		
+		Vec4 projectedVector;
 	protected:
 	};
 }

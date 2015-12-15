@@ -2,8 +2,8 @@
 using namespace Game_Lib;
 Boy::Boy(Rectangle r, Window* window, float _angle) :GameObject(position, _angle), boySprite(new Sprite(r, window, _angle)), windowPtr(window) {
 	position = Vec4(r.x, r.y, 0.0f, 0.0f);
-	radius = r.h / 5;
-	acceleration.y = -9.8 * 5;
+	radius = 3;
+	acceleration.y = -40.8;
 	Debug::Log(EMessageType::INFO, "Boy", "Boy", __FILE__, __LINE__, "Boy pointer Created at screen coord ::");
 }
 Boy::~Boy() {
@@ -37,10 +37,11 @@ void Boy::Render(Matrix4 projection) {
 void Boy::Update(float deltaTime) {
 	velocity += acceleration * deltaTime;
 	position += velocity * deltaTime + 0.5f * acceleration * deltaTime * deltaTime;
-	boySprite->retangle->x = position.x;
-	boySprite->retangle->y = position.y;
+	boySprite->position.x = position.x;
+	boySprite->position.y = position.y;
 	Clamp();
 	boySprite->angle = angle;
+	position.print();
 }
 bool Boy::IsFlipped() {
 	if (boySprite->isFlipped == false) {
@@ -59,7 +60,7 @@ void Boy::RightFlip() const {
 }
 
 void Game_Lib::Boy::Clamp() {
-	if (position.y - radius <= -1500) {
-		velocity.y = 0.0f;
+	if (position.y - radius <= -600.0) {
+		velocity.y = 1.0f;
 	}
 }

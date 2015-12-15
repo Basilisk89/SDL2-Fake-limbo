@@ -1,10 +1,11 @@
 #include "Sprite.h"
 using namespace Game_Lib;
 Game_Lib::Sprite::Sprite(Rectangle & r, Window* windowptr, float _angle) :Texture(), retangle(new SDL_Rect()), windowInstance(windowptr), flip(), angle(_angle) {
+	position = Vec4(r.x, r.y, 0, 0);
+	retangle->x = position.x;
+	retangle->y = position.y;
 	retangle->h = r.h;
 	retangle->w = r.w;
-	retangle->x = r.x;
-	retangle->y = r.y;
 	Debug::Log(EMessageType::INFO, "Sprite", "Sprite", __FILE__, __LINE__, "Sprite Created");
 }
 Sprite::~Sprite() {
@@ -21,10 +22,10 @@ void Sprite::Load(const std::string& filename) {
 void Sprite::Render(Matrix4 projection) {
 	try {
 		if (projection != NULL) {
-			Vec4 projectedVector = projection * Vec4(retangle->x, retangle->y, 0.0f, 0.0f);
+			 projectedVector = projection * position;
 			if (projectedVector != NULL) {
-				retangle->x += projectedVector.x;
-				retangle->y += projectedVector.y;
+				retangle->x = projectedVector.x;
+				retangle->y = projectedVector.y;
 				SDL_RenderCopyEx(windowInstance->GetRenderer(), texture, NULL, retangle, angle, NULL, flip);
 			}
 			else {}

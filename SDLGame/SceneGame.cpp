@@ -11,18 +11,19 @@ Game_Lib::SceneGame::SceneGame(Window & windowRef) :SceneBase(windowRef) {
 bool Game_Lib::SceneGame::OnCreate()
 {
 	camera = Camera();
+	float aspectratio = windowPtr->GetWidth() / windowPtr->GetHeight();
 	ndc = camera.NormalizedDeviceCoord(windowPtr->GetWidth(), windowPtr->GetHeight());
-	projection = camera.ScreenToWorld(ndc, 0, windowPtr->GetWidth() * windowPtr->GetHeight() / windowPtr->GetWidth(), 0, windowPtr->GetHeight() * windowPtr->GetHeight() / windowPtr->GetWidth(), 0, 1);
+	projection = camera.ScreenToWorld(ndc, 0, 600 * aspectratio, 0, 800 / aspectratio, 0, 1);
 	SDL_Event SDLevent;
 	SDLevent = SDL_Event();
 	eventhandler.Initialize(SDLevent);
 	keyboard.Initialize();
 	mouse.Initialize();
-	cat = new Cat(Rectangle(150, -900, 50, 50), windowPtr, 0);
+	cat = new Cat(Rectangle(150, -100, 50, 50), windowPtr, 0);
 	bg = new Sprite(Rectangle(0.0, 0.0, windowPtr->GetHeight(), windowPtr->GetWidth()), windowPtr, 0);
 	// Load the Vector Container<of unique_ptrs containing<GameObject>> with the boy sub class
-	boys.push_back(std::unique_ptr<GameObject>(new Boy(Rectangle(10, -1300, 30, 40), windowPtr, 0.0f)));
-	boys.push_back(std::unique_ptr<GameObject>(new Boy(Rectangle(400, -1300, 30, 40), windowPtr, 0.0f)));
+	boys.push_back(std::unique_ptr<GameObject>(new Boy(Rectangle(10, -600, 30, 40), windowPtr, 0.0f)));
+	boys.push_back(std::unique_ptr<GameObject>(new Boy(Rectangle(600, -600, 30, 40), windowPtr, 0.0f)));
 
 	for (int i = 0; i < boys.size(); i++)
 		boys.at(i)->OnCreate("C:/GameDev/hero.png");
@@ -134,7 +135,7 @@ void Game_Lib::SceneGame::Render() const {
 }
 
 bool Game_Lib::SceneGame::IsFinished() const {
-	if (boys.at(0)->position.x + boys.at(0)->radius >= 400) {
+	if (boys.at(0)->position.x + boys.at(0)->radius >= 600) {
 		return true;
 	}
 	return false;

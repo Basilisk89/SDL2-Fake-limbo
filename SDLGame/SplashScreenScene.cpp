@@ -14,29 +14,29 @@ bool SplashScreenScene::OnCreate() {
 
 	SDL_Event SDLevent;
 	SDLevent = SDL_Event();
-
+	float aspectratio = windowPtr->GetWidth() / windowPtr->GetHeight();
 	ndc = camera.NormalizedDeviceCoord(windowPtr->GetWidth(), windowPtr->GetHeight());
-	projection = camera.ScreenToWorld(ndc, 0, 800 * windowPtr->GetHeight() / windowPtr->GetWidth(), 0, 600 * windowPtr->GetHeight() / windowPtr->GetWidth(), 0, 1);
+	projection = camera.ScreenToWorld(ndc, 0, 600 * aspectratio, 0, 800 / aspectratio, 0, 1);
 
 	eventhandler.Initialize(SDLevent);
 	keyboard.Initialize();
 	mouse.Initialize();
-
-	Flys.push_back(new fly(Rectangle(100, -500, 30, 30), windowPtr, 0.0f));
-	Flys.push_back(new fly(Rectangle(200, -100, 30, 30), windowPtr, 0.0f));
-	Flys.push_back(new fly(Rectangle(300, -400, 30, 30), windowPtr, 0.0f));
-	Flys.push_back(new fly(Rectangle(200, -200, 30, 30), windowPtr, 0.0f));
-	Flys.push_back(new fly(Rectangle(250, -300, 30, 30), windowPtr, 0.0f));
-	Flys.push_back(new fly(Rectangle(50, -50, 30, 30), windowPtr, 0.0f));
-	Flys.push_back(new fly(Rectangle(20, -700, 30, 30), windowPtr, 0.0f));
-	Flys.push_back(new fly(Rectangle(200, -200, 30, 30), windowPtr, 0.0f));
-	boy.reset(new Boy(Rectangle(0.0f, -1300.0f, 30, 40), windowPtr, 0.0f));
+	projection.print();
+	Flys.push_back(new fly(Rectangle(10, -50, 30, 30), windowPtr, 0.0f));
+	Flys.push_back(new fly(Rectangle(20, -20, 30, 30), windowPtr, 0.0f));
+	Flys.push_back(new fly(Rectangle(30, -30, 30, 30), windowPtr, 0.0f));
+	Flys.push_back(new fly(Rectangle(100, -20, 30, 30), windowPtr, 0.0f));
+	Flys.push_back(new fly(Rectangle(200, -30, 30, 30), windowPtr, 0.0f));
+	Flys.push_back(new fly(Rectangle(300, -50, 30, 30), windowPtr, 0.0f));
+	Flys.push_back(new fly(Rectangle(400, -70, 30, 30), windowPtr, 0.0f));
+	Flys.push_back(new fly(Rectangle(100, -20, 30, 30), windowPtr, 0.0f));
+	boy.reset(new Boy(Rectangle(0.0f, -500.0f, 30, 40), windowPtr, 0.0f));
 	bg = new Sprite(Rectangle(0, 0, windowPtr->GetHeight(), windowPtr->GetWidth()), windowPtr, 0);
 
 	for (int i = 0; i < Flys.size(); i++)
 		Flys.at(i)->OnCreate("C:/GameDev/fly.png");
 
-	boy.get()->OnCreate("C:/GameDev/hero.png");
+	boy->OnCreate("C:/GameDev/hero.png");
 	bg->Load("C:/GameDev/background.jpg");
 
 	// set up music obj
@@ -49,7 +49,7 @@ bool SplashScreenScene::OnCreate() {
 }
 /// Cleanup Assets
 void SplashScreenScene::OnDestroy() {
-	delete bg, boy.get(), musicplayer, eventhandler, keyboard, mouse;
+	delete bg, musicplayer, eventhandler, keyboard, mouse;
 	bg = nullptr;
 	boy.reset();
 	boy = nullptr;
@@ -113,7 +113,6 @@ void SplashScreenScene::Update(const float deltaTime) {
 				}
 			}if (keyboard.IsPressed(Keyboard::Key::ESCAPE)) {
 				isRunning = false; SDL_Quit();
-				//isRunning = false;
 			}
 			break;
 		case Keyboard::State::KEYUP:

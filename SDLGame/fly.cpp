@@ -2,8 +2,9 @@
 
 using namespace Game_Lib;
 fly::fly(Rectangle r, Window * window, float _angle) :GameObject(position, _angle), flySprite(new Sprite(r, window, _angle)), windowPtr(window) {
-	position = Vec4(r.x, r.y, 0.0, 0.0);
-	radius = r.h / 5;
+	position.x = r.x;
+	position.y = r.y;
+	radius =1;
 }
 
 fly::~fly() {
@@ -30,11 +31,12 @@ void fly::Render(Matrix4 projection) {
 
 void  fly::Update(float deltaTime) {
 	angle += sinf(deltaTime);
-	position.x += 1 * cosf(angle);
+	position.x += 1.0 * cosf(angle);
 	position.y += -0.5;
-	if (position.y <= -1700) { position.y = 10.0f; }
-	flySprite->retangle->x = position.x;
-	flySprite->retangle->y = position.y;
+	if (position.y <= -750) { position.y = 0.0f; }
+	flySprite->position.x = position.x;
+	flySprite->position.y = position.y;
+	position.print();
 }
 
 void fly::LeftFlip() const {
