@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<DEFECTS><DEFECT><SFA><FILEPATH>c:\users\ryan\onedrive\game programming\game 340 c++opengl\c++ 2015\sdlgame\</FILEPATH><FILENAME>window.cpp</FILENAME><LINE>34</LINE><COLUMN>24</COLUMN></SFA><DEFECTCODE>6282</DEFECTCODE><DESCRIPTION>Incorrect operator:  assignment of constant in Boolean context. Consider using '==' instead.</DESCRIPTION><FUNCTION>Game_Lib::Window::Initialize</FUNCTION><DECORATED>?Initialize@Window@Game_Lib@@QAE_NXZ</DECORATED><FUNCLINE>23</FUNCLINE><PATH/></DEFECT></DEFECTS>

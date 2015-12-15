@@ -25,7 +25,6 @@ c:\users\ryan\onedrive\game programming\game 340 c++opengl\c++ 2015\sdlgame\debu
 c:\users\ryan\onedrive\game programming\game 340 c++opengl\c++ 2015\sdlgame\debug\timer.obj
 c:\users\ryan\onedrive\game programming\game 340 c++opengl\c++ 2015\sdlgame\debug\texture.obj
 c:\users\ryan\onedrive\game programming\game 340 c++opengl\c++ 2015\sdlgame\debug\sprite.obj
-c:\users\ryan\onedrive\game programming\game 340 c++opengl\c++ 2015\sdlgame\debug\splashscreenscene.obj
 c:\users\ryan\onedrive\game programming\game 340 c++opengl\c++ 2015\sdlgame\debug\scenebase.obj
 c:\users\ryan\onedrive\game programming\game 340 c++opengl\c++ 2015\sdlgame\debug\musicplayer.obj
 c:\users\ryan\onedrive\game programming\game 340 c++opengl\c++ 2015\sdlgame\debug\musicloader.obj
@@ -60,15 +59,99 @@ c:\users\ryan\onedrive\game programming\game 340 c++opengl\c++ 2015\sdlgame\debu
 c:\users\ryan\onedrive\game programming\game 340 c++opengl\c++ 2015\sdlgame\debug\camera.obj
 c:\users\ryan\onedrive\game programming\game 340 c++opengl\c++ 2015\sdlgame\debug\boy.obj
 c:\users\ryan\onedrive\game programming\game 340 c++opengl\c++ 2015\sdlgame\debug\animatedsprite.obj
+c:\users\ryan\onedrive\game programming\game 340 c++opengl\c++ 2015\sdlgame\debug\splashscreenscene.obj
+c:\users\ryan\onedrive\game programming\game 340 c++opengl\c++ 2015\sdlgame\debug\scenegame.obj
+c:\users\ryan\onedrive\game programming\game 340 c++opengl\c++ 2015\sdlgame\debug\loadscene.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\vc140.pdb
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\vc140.idb
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\gamescenemanager.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\imageloader.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\keyboard.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\keyboardmanager.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\loadscene.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\main.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\mmath.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\mouse.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\mousemanager.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\music.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\musicloader.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\musicplayer.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\scenebase.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\scenegame.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\splashscreenscene.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\sprite.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\texture.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\timer.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\vmath.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\window.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\animatedsprite.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\boy.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\camera.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\cat.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\collision.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\controller.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\controllermanager.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\debug.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\event.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\eventhandler.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\fly.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\gameobject.obj
 c:\users\ryan\onedrive\game programming\game 340 c++opengl\c++ 2015\debug\sdlgame.ilk
 c:\users\ryan\onedrive\game programming\game 340 c++opengl\c++ 2015\debug\sdlgame.exe
 c:\users\ryan\onedrive\game programming\game 340 c++opengl\c++ 2015\debug\sdlgame.pdb
-c:\users\ryan\onedrive\game programming\game 340 c++opengl\c++ 2015\sdlgame\debug\nativecodeanalysis.read.1.tlog
-c:\users\ryan\onedrive\game programming\game 340 c++opengl\c++ 2015\sdlgame\debug\vc.nativecodeanalysis.all.xml
-c:\users\ryan\onedrive\game programming\game 340 c++opengl\c++ 2015\debug\sdlgame.exe.lastcodeanalysissucceeded
-c:\users\ryan\onedrive\game programming\game 340 c++opengl\c++ 2015\sdlgame\debug\sdlgame.tlog\cl.command.1.tlog
-c:\users\ryan\onedrive\game programming\game 340 c++opengl\c++ 2015\sdlgame\debug\sdlgame.tlog\cl.read.1.tlog
-c:\users\ryan\onedrive\game programming\game 340 c++opengl\c++ 2015\sdlgame\debug\sdlgame.tlog\cl.write.1.tlog
-c:\users\ryan\onedrive\game programming\game 340 c++opengl\c++ 2015\sdlgame\debug\sdlgame.tlog\link.command.1.tlog
-c:\users\ryan\onedrive\game programming\game 340 c++opengl\c++ 2015\sdlgame\debug\sdlgame.tlog\link.read.1.tlog
-c:\users\ryan\onedrive\game programming\game 340 c++opengl\c++ 2015\sdlgame\debug\sdlgame.tlog\link.write.1.tlog
+c:\users\ryan\documents\github\sdl2-fake-limbo\debug\sdlgame.ilk
+c:\users\ryan\documents\github\sdl2-fake-limbo\debug\sdlgame.exe
+c:\users\ryan\documents\github\sdl2-fake-limbo\debug\sdlgame.pdb
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\animatedsprite-orion-pc.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\boy-orion-pc.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\cat-orion-pc.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\collision-orion-pc.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\fly-orion-pc.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\gamescenemanager-orion-pc.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\main-orion-pc.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\scenebase-orion-pc.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\scenegame-orion-pc.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\splashscreenscene-orion-pc.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\sprite-orion-pc.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\texture-orion-pc.obj
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\nativecodeanalysis.read.1.tlog
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\vc140-orion-pc.idb
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\vc140-orion-pc.pdb
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\animatedsprite.nativecodeanalysis.xml
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\boy.nativecodeanalysis.xml
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\camera.nativecodeanalysis.xml
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\cat.nativecodeanalysis.xml
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\collision.nativecodeanalysis.xml
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\controller.nativecodeanalysis.xml
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\controllermanager.nativecodeanalysis.xml
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\debug.nativecodeanalysis.xml
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\event.nativecodeanalysis.xml
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\eventhandler.nativecodeanalysis.xml
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\fly.nativecodeanalysis.xml
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\gameobject.nativecodeanalysis.xml
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\gamescenemanager.nativecodeanalysis.xml
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\imageloader.nativecodeanalysis.xml
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\keyboard.nativecodeanalysis.xml
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\keyboardmanager.nativecodeanalysis.xml
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\main.nativecodeanalysis.xml
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\mmath.nativecodeanalysis.xml
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\mouse.nativecodeanalysis.xml
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\mousemanager.nativecodeanalysis.xml
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\music.nativecodeanalysis.xml
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\musicloader.nativecodeanalysis.xml
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\musicplayer.nativecodeanalysis.xml
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\scenebase.nativecodeanalysis.xml
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\splashscreenscene.nativecodeanalysis.xml
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\sprite.nativecodeanalysis.xml
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\texture.nativecodeanalysis.xml
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\timer.nativecodeanalysis.xml
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\vc.nativecodeanalysis.all.xml
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\vmath.nativecodeanalysis.xml
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\window.nativecodeanalysis.xml
+c:\users\ryan\documents\github\sdl2-fake-limbo\debug\sdlgame.exe.lastcodeanalysissucceeded
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\sdlgame.tlog\cl.command.1.tlog
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\sdlgame.tlog\cl.read.1-orion-pc.tlog
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\sdlgame.tlog\cl.write.1-orion-pc.tlog
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\sdlgame.tlog\link.command.1.tlog
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\sdlgame.tlog\link.read.1.tlog
+c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\debug\sdlgame.tlog\link.write.1.tlog
