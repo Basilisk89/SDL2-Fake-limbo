@@ -1,0 +1,53 @@
+INFO: Main::Main() - 
+ File :: c:\users\ryan\onedrive\game programming\game 340 c++opengl\c++ 2015\debug\main.cpp
+ Line :: 16
+ Date :: Thu Oct 15 13:56:03 2015
+ Message :: Main started
+
+INFO: GSM::constructor() - 
+ File :: c:\users\ryan\onedrive\game programming\game 340 c++opengl\c++ 2015\debug\gamescenemanager.cpp
+ Line :: 7
+ Date :: Thu Oct 15 13:56:03 2015
+ Message :: GSM Created
+
+INFO: GSM::Run() - 
+ File :: c:\users\ryan\onedrive\game programming\game 340 c++opengl\c++ 2015\debug\gamescenemanager.cpp
+ Line :: 17
+ Date :: Thu Oct 15 13:56:03 2015
+ Message :: Running GSM
+
+INFO: GSM::init() - 
+ File :: c:\users\ryan\onedrive\game programming\game 340 c++opengl\c++ 2015\debug\gamescenemanager.cpp
+ Line :: 30
+ Date :: Thu Oct 15 13:56:03 2015
+ Message :: GSM Initialized
+
+INFO: Main::GSM::Run() - 
+ File :: c:\users\ryan\onedrive\game programming\game 340 c++opengl\c++ 2015\debug\main.cpp
+ Line :: 21
+ Date :: Thu Oct 15 13:56:03 2015
+ Thread ID :: 9176
+ Message :: Thread1 id
+
+INFO: GSM::destructor() - 
+ File :: c:\users\ryan\onedrive\game programming\game 340 c++opengl\c++ 2015\debug\gamescenemanager.cpp
+ Line :: 12
+ Date :: Thu Oct 15 13:56:03 2015
+ Message :: GSM Killed
+
+INFO: Main::GSM::Init() - 
+ File :: c:\users\ryan\onedrive\game programming\game 340 c++opengl\c++ 2015\debug\main.cpp
+ Line :: 22
+ Date :: Thu Oct 15 13:56:03 2015
+ Thread ID :: 5728
+ Message :: Thread2 id
+
+d
+
+INFO: Main::GSM::deleteInstance() - 
+ File :: c:\users\ryan\onedrive\game programming\game 340 c++opengl\c++ 2015\debug\main.cpp
+ Line :: 23
+ Date :: Thu Oct 15 13:56:03 2015
+ Thread ID :: 6152
+ Message :: Thread3 id
+

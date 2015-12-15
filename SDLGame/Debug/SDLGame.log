@@ -1,13 +1,110 @@
-﻿Build started 12/14/2015 9:47:20 PM.
-     1>Project "C:\Users\Ryan\OneDrive\Game Programming\GAME 340 C++OpenGL\C++ 2015\SDLGame\SDLGame.vcxproj" on node 2 (Build target(s)).
+﻿Build started 12/14/2015 11:13:33 PM.
+     1>Project "C:\Users\Ryan\Documents\GitHub\SDL2-Fake-limbo\SDLGame\SDLGame.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt LoadScene.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt AnimatedSprite.cpp Boy.cpp Camera.cpp Cat.cpp Collision.cpp Controller.cpp ControllerManager.cpp Debug.cpp Event.cpp EventHandler.cpp fly.cpp GameObject.cpp GameSceneManager.cpp ImageLoader.cpp Keyboard.cpp KeyboardManager.cpp LoadScene.cpp Main.cpp MMath.cpp Mouse.cpp MouseManager.cpp Music.cpp MusicLoader.cpp MusicPlayer.cpp SceneBase.cpp SceneGame.cpp SplashScreenScene.cpp Sprite.cpp Texture.cpp Timer.cpp VMath.cpp Window.cpp
+         Window.cpp
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\musicplayer.h(10): warning C4114: same type qualifier used more than once
+         VMath.cpp
+         Timer.cpp
+         Texture.cpp
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\texture.cpp(15): warning C4150: deletion of pointer to incomplete type 'SDL_Texture'; no destructor called
+         c:\gamedev\sdl\include\sdl_render.h(128): note: see declaration of 'SDL_Texture'
+         Sprite.cpp
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\quaternion.h(25): warning C4305: '*=': truncation from 'double' to 'float'
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp(4): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp(5): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp(6): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp(7): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp(24): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp(26): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\sprite.cpp(27): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+         SplashScreenScene.cpp
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\musicplayer.h(10): warning C4114: same type qualifier used more than once
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\quaternion.h(25): warning C4305: '*=': truncation from 'double' to 'float'
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\splashscreenscene.cpp(19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\splashscreenscene.cpp(34): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\splashscreenscene.cpp(36): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\splashscreenscene.cpp(56): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\splashscreenscene.cpp(66): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\splashscreenscene.cpp(136): warning C4018: '<': signed/unsigned mismatch
+         SceneGame.cpp
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\musicplayer.h(10): warning C4114: same type qualifier used more than once
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\quaternion.h(25): warning C4305: '*=': truncation from 'double' to 'float'
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\scenegame.cpp(15): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\scenegame.cpp(22): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\scenegame.cpp(27): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\scenegame.cpp(47): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\scenegame.cpp(60): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\scenegame.cpp(129): warning C4018: '<': signed/unsigned mismatch
+         SceneBase.cpp
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\musicplayer.h(10): warning C4114: same type qualifier used more than once
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\quaternion.h(25): warning C4305: '*=': truncation from 'double' to 'float'
+         MusicPlayer.cpp
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\musicplayer.h(10): warning C4114: same type qualifier used more than once
+         MusicLoader.cpp
+         Music.cpp
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\music.cpp(21): warning C4150: deletion of pointer to incomplete type '_Mix_Music'; no destructor called
+         c:\gamedev\sdl2_mixer-2.0.0\include\sdl_mixer.h(131): note: see declaration of '_Mix_Music'
+         MouseManager.cpp
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\mousemanager.cpp(35): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+         Mouse.cpp
+         MMath.cpp
+         Main.cpp
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\musicplayer.h(10): warning C4114: same type qualifier used more than once
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\quaternion.h(25): warning C4305: '*=': truncation from 'double' to 'float'
          LoadScene.cpp
-     1>c:\users\ryan\onedrive\game programming\game 340 c++opengl\c++ 2015\sdlgame\musicplayer.h(10): warning C4114: same type qualifier used more than once
-     1>c:\users\ryan\onedrive\game programming\game 340 c++opengl\c++ 2015\sdlgame\quaternion.h(25): warning C4305: '*=': truncation from 'double' to 'float'
-     1>c:\users\ryan\onedrive\game programming\game 340 c++opengl\c++ 2015\sdlgame\loadscene.cpp(19): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\musicplayer.h(10): warning C4114: same type qualifier used more than once
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\quaternion.h(25): warning C4305: '*=': truncation from 'double' to 'float'
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\loadscene.cpp(14): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+         KeyboardManager.cpp
+         Keyboard.cpp
+         ImageLoader.cpp
+         GameSceneManager.cpp
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\musicplayer.h(10): warning C4114: same type qualifier used more than once
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\quaternion.h(25): warning C4305: '*=': truncation from 'double' to 'float'
+         Generating Code...
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\gamescenemanager.cpp(69): warning C4715: 'Game_Lib::GameSceneManager::Initialize': not all control paths return a value
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\main.cpp(33): warning C4715: 'SDL_main': not all control paths return a value
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\musicloader.cpp(23): warning C4715: 'Game_Lib::MusicLoader::LoadMusic': not all control paths return a value
+         Compiling...
+         GameObject.cpp
+         fly.cpp
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\fly.cpp(36): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\fly.cpp(37): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+         EventHandler.cpp
+         Event.cpp
+         Debug.cpp
+         ControllerManager.cpp
+         Controller.cpp
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\controller.cpp(20): warning C4156: deletion of an array expression without using the array form of 'delete'; array form substituted
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\controller.cpp(20): warning C4154: deletion of an array expression; conversion to pointer supplied
+         Collision.cpp
+         Cat.cpp
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\cat.cpp(32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\cat.cpp(34): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\cat.cpp(35): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+         Camera.cpp
+         Boy.cpp
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\boy.cpp(40): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\boy.cpp(41): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+         AnimatedSprite.cpp
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\animatedsprite.cpp(18): warning C4150: deletion of pointer to incomplete type 'SDL_Texture'; no destructor called
+         c:\gamedev\sdl\include\sdl_render.h(128): note: see declaration of 'SDL_Texture'
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\animatedsprite.cpp(19): warning C4150: deletion of pointer to incomplete type 'SDL_Renderer'; no destructor called
+         c:\gamedev\sdl\include\sdl_render.h(122): note: see declaration of 'SDL_Renderer'
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\animatedsprite.cpp(73): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\animatedsprite.cpp(73): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\animatedsprite.cpp(81): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\animatedsprite.cpp(81): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\animatedsprite.cpp(87): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\animatedsprite.cpp(88): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+         Generating Code...
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\animatedsprite.cpp(44): warning C4715: 'Game_Lib::AnimatedSprite::LoadAsset': not all control paths return a value
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\boy.cpp(23): warning C4715: 'Game_Lib::Boy::OnCreate': not all control paths return a value
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\boy.cpp(52): warning C4715: 'Game_Lib::Boy::IsFlipped': not all control paths return a value
+     1>c:\users\ryan\documents\github\sdl2-fake-limbo\sdlgame\cat.cpp(17): warning C4715: 'Game_Lib::Cat::OnCreate': not all control paths return a value
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ryan\OneDrive\Game Programming\GAME 340 C++OpenGL\C++ 2015\Debug\SDLGame.exe" /INCREMENTAL /NOLOGO C:\GameDev\SDL\lib\win32\SDL2.lib C:\GameDev\SDL\lib\win32\SDL2main.lib "C:\GameDev\SDL2_image-2.0.0\lib\x86\SDL2_image.lib" "C:\GameDev\SDL2_mixer-2.0.0\lib\x86\SDL2_mixer.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Ryan\OneDrive\Game Programming\GAME 340 C++OpenGL\C++ 2015\Debug\SDLGame.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ryan\OneDrive\Game Programming\GAME 340 C++OpenGL\C++ 2015\Debug\SDLGame.lib" /MACHINE:X86 Debug\AnimatedSprite.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ryan\Documents\GitHub\SDL2-Fake-limbo\Debug\SDLGame.exe" /INCREMENTAL /NOLOGO C:\GameDev\SDL\lib\win32\SDL2.lib C:\GameDev\SDL\lib\win32\SDL2main.lib "C:\GameDev\SDL2_image-2.0.0\lib\x86\SDL2_image.lib" "C:\GameDev\SDL2_mixer-2.0.0\lib\x86\SDL2_mixer.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Ryan\Documents\GitHub\SDL2-Fake-limbo\Debug\SDLGame.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ryan\Documents\GitHub\SDL2-Fake-limbo\Debug\SDLGame.lib" /MACHINE:X86 Debug\AnimatedSprite.obj
          Debug\Boy.obj
          Debug\Camera.obj
          Debug\Cat.obj
@@ -39,9 +136,9 @@
          Debug\Timer.obj
          Debug\VMath.obj
          Debug\Window.obj
-         SDLGame.vcxproj -> C:\Users\Ryan\OneDrive\Game Programming\GAME 340 C++OpenGL\C++ 2015\Debug\SDLGame.exe
-     1>Done Building Project "C:\Users\Ryan\OneDrive\Game Programming\GAME 340 C++OpenGL\C++ 2015\SDLGame\SDLGame.vcxproj" (Build target(s)).
+         SDLGame.vcxproj -> C:\Users\Ryan\Documents\GitHub\SDL2-Fake-limbo\Debug\SDLGame.exe
+     1>Done Building Project "C:\Users\Ryan\Documents\GitHub\SDL2-Fake-limbo\SDLGame\SDLGame.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.18
+Time Elapsed 00:00:19.41
