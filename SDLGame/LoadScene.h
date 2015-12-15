@@ -19,6 +19,7 @@ namespace Game_Lib {
 		virtual void Render() const;
 		virtual bool IsFinished() const;
 		std::unique_ptr<AnimatedSprite> boy;
+		friend std::default_delete<GameObject>;
 		float accuTime;
 		Matrix4 ndc, projection;
 		Camera camera;

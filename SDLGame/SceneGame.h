@@ -39,5 +39,6 @@ namespace Game_Lib {
 		int FrameTime;
 	private:
 		std::vector<std::unique_ptr<GameObject>> boys;
+		friend std::default_delete<GameObject>;
 	};
 }

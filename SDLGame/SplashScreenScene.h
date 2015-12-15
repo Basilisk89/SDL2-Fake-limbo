@@ -28,6 +28,7 @@ namespace Game_Lib {
 		Collision c;
 		std::vector<GameObject*> Flys;
 		std::unique_ptr<GameObject> boy;
+		friend std::default_delete<GameObject>;
 	};
 }
 #endif 
